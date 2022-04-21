@@ -7,6 +7,7 @@
 						TABLE OF CONTENTS
 =======================================================================
 1. Header
+2. Features
 
 
 */
@@ -2992,7 +2993,7 @@ input, select, textarea {
 
 		}
 
-/* Features */
+/* 2. Features */
 
 	.features {
 		display: -moz-flex;
@@ -3011,12 +3012,12 @@ input, select, textarea {
 			background-color: #353849;
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
-			width: calc(50% - 1.5em);
+			width: calc(30% - 1.5em);
 		}
 
-			.features article:nth-child(2n) {
+			/* .features article:nth-child(2n) {
 				margin-right: 0;
-			}
+			} */
 
 			.features article .image {
 				border-radius: 5px 5px 0 0;
@@ -3035,9 +3036,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.features {
+				justify-content: center;
+			}
+
 			.features article {
 				margin: 1em 2em 1em 0;
-				width: calc(50% - 1em);
+				width: calc(60% - 1em);
 			}
 
 		}
@@ -3047,7 +3052,7 @@ input, select, textarea {
 			.features article {
 				padding: 1.5em 1.5em 0.1em 1.5em ;
 				margin: 0.875em 1.75em 0.875em 0;
-				width: calc(50% - 0.875em - 1px);
+				width: calc(60% - 0.875em - 1px);
 			}
 
 				.features article .image {
@@ -3680,7 +3685,7 @@ input, select, textarea {
 			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 		}
 
-		.wrapper:before, .wrapper:after {
+		/* .wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 			content: '';
@@ -3688,12 +3693,12 @@ input, select, textarea {
 			height: 6.5em;
 			position: absolute;
 			width: 100%;
-		}
+		} */
 
-		.wrapper:before {
+		/* .wrapper:before {
 			left: 0;
 			top: -6.5em;
-		}
+		} */
 
 		.wrapper:after {
 			-moz-transform: scaleY(-1);
