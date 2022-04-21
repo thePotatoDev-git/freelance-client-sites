@@ -7,7 +7,9 @@
 						TABLE OF CONTENTS
 =======================================================================
 1. Header
-2. Features
+2. Banner
+3. Features
+4. Wrapper
 
 
 */
@@ -2993,7 +2995,7 @@ input, select, textarea {
 
 		}
 
-/* 2. Features */
+/* 3. Features */
 
 	.features {
 		display: -moz-flex;
@@ -3103,12 +3105,12 @@ input, select, textarea {
 			margin-top: -75px;
 		}
 		#header .navBar li {
-			padding: 0 15px;
+			padding: 0 20px;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-weight: 700;
+			font-weight: 500;
 			text-transform: uppercase;
 			letter-spacing: .1em;
-			font-size: .9em;
+			font-size: .8em;
 		}
 		.navBar a {
 			border-bottom: none;
@@ -3124,6 +3126,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
+			display: inline;
 		}
 
 			#header h1 a {
@@ -3192,7 +3195,7 @@ input, select, textarea {
 					}
 
 		#header.alt {
-			background-color: rgba(73, 77, 90, .95);
+			background-color: rgba(71, 71, 92, .95);
 		}
 
 			#header.alt h1 {
@@ -3420,10 +3423,16 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-/* Banner */
+/* 2. Banner */
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+		height: 95vh;
+		background-attachment: fixed;
+		background-color: #2e3141;
+		background-image: linear-gradient(to top, rgba(213, 158, 171, 0.5), rgba(213, 158, 171, 0.5)), url(../css/images/banner2.jpg);
+				background-size: auto, cover;
+				background-position: center, center;
 	}
 
 		#banner .inner {
@@ -3442,6 +3451,11 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+		}
+
+		#banner .logo img {
+			width: 200px;
+			margin-left: -50px;
 		}
 
 			#banner .logo .icon {
@@ -3511,11 +3525,9 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 				background-size: auto,
  cover;
-				background-position: center,
- center;
+				background-position-x: 75%;
 				margin-bottom: -6.5em;
 			}
 
@@ -3526,6 +3538,7 @@ input, select, textarea {
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
+				background-position-x: 60%;
 			}
 
 				#banner .inner {
@@ -3539,6 +3552,7 @@ input, select, textarea {
 			#banner {
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
+				height: 50vh;
 			}
 
 				#banner .logo {
@@ -3591,7 +3605,7 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
-/* Wrapper */
+/* 4. Wrapper */
 
 	#wrapper > header {
 		padding: 11em 0 2.25em 0 ;
@@ -3617,6 +3631,10 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: uppercase;
 		}
+
+	#one .content {
+		text-align: left;
+	}
 
 	@media screen and (max-width: 1280px) {
 
@@ -4025,7 +4043,7 @@ input, select, textarea {
 			}
 
 		}
-
+	
 /* Footer */
 
 	#footer .inner {
