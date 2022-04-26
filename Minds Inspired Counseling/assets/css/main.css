@@ -4107,6 +4107,13 @@ input, select, textarea {
 					color: inherit;
 				}
 
+				#footer .license,
+				#footer .license a {
+					color: rgba(255, 255, 255, 0.35);
+					font-size: 0.9em;
+				}
+
+
 	@media screen and (max-width: 1280px) {
 
 		#footer {
@@ -4194,6 +4201,19 @@ input, select, textarea {
 		}
 
 	}
+
+/* 
+==========================
+Audio
+==========================
+*/
+audio {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 225px;
+	height: 25px;
+}
 
 /*
 	Solid State by HTML5 UP
