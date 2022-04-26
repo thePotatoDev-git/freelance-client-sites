@@ -2334,7 +2334,7 @@ input, select, textarea {
 	}
 
 	input[type="radio"] + label:before {
-		border-radius: 100%;
+		border-radius: 25%;
 	}
 
 	::-webkit-input-placeholder {
@@ -3427,7 +3427,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
-		height: 95vh;
+		height: 100vh;
 		background-attachment: fixed;
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(213, 158, 171, 0.5), rgba(213, 158, 171, 0.5)), url(../css/images/banner.jpg);
