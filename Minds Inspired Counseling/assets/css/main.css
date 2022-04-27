@@ -35,6 +35,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.aboutSection {
+	margin-bottom: 15em;
+}
+
 body {
 	line-height: 1;
 }
@@ -199,7 +203,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
+			margin: 0 0 4em 0;
 			text-transform: uppercase;
 		}
 
@@ -298,6 +302,17 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.7em;
+	}
+
+	.reviewName {
+		font-weight: bold;
+	}
+	.reviewDate {
+		float: right;
+		color: rgba(255, 255, 255, 0.35);
+	}
+	.review {
+		margin-top: 1.5em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2430,7 +2445,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 30%;
 		}
 
 			.image.left img, .image.right img {
