@@ -143,3 +143,12 @@
 			});
 
 })(jQuery);
+
+document.querySelector('#moreButton').addEventListener('click', readMore);
+
+
+function readMore() {
+	document.querySelector('.reviews').classList.toggle('hidden');
+	document.querySelector('#moreButton').innerHTML = 'Read less';
+	
+}

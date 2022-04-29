@@ -4230,6 +4230,10 @@ audio {
 	height: 25px;
 }
 
+.hidden {
+	display: none;
+}
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
