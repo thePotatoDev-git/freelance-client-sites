@@ -194,6 +194,10 @@ input, select, textarea {
 			border-bottom-color: transparent;
 			color: #ffffff;
 		}
+		
+		.navBar a:hover {
+			color:rgba(204, 169, 190)
+		}
 
 		a.special:not(.button) {
 			text-decoration: none;
@@ -240,7 +244,7 @@ input, select, textarea {
 			}
 
 			a.special:not(.button):hover:before {
-				background-color: rgba(255, 255, 255, 0.025);
+				background-color: rgba(255, 255, 255, 0.3);
 			}
 
 			a.special:not(.button):active:before {
@@ -2209,7 +2213,7 @@ input, select, textarea {
 		background: rgba(14, 30, 69);
 		border-radius: 5px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.884);
+		border: solid 2px rgba(37, 57, 110, 0.884);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2909,7 +2913,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.025);
+			background-color: rgba(255, 255, 255, 0.3);
 		}
 
 		input[type="submit"]:active,
@@ -3344,7 +3348,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #8b6783;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3400,7 +3404,7 @@ input, select, textarea {
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #cca9be;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3567,7 +3571,8 @@ input, select, textarea {
 			#banner {
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
-				height: 70vh;
+				height: 90vh;
+				background-attachment: scroll;
 			}
 
 				#banner .logo {
