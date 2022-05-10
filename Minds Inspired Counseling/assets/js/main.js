@@ -148,7 +148,12 @@ document.querySelector('#moreButton').addEventListener('click', readMore);
 
 
 function readMore() {
+	const button = document.querySelector('#moreButton');
 	document.querySelector('.reviews').classList.toggle('hidden');
-	document.querySelector('#moreButton').innerHTML = 'Read less';
+	if (button.innerText = 'Read more') {
+		button.innerText = 'Show less';
+	} else {
+		button.innerText = 'Read more'
+	}
 	
 }
