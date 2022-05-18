@@ -124,6 +124,12 @@ input, select, textarea {
 		background-size: 100%;
 		background-position: top;
 	}
+	.aboutBanner {
+		background-image: linear-gradient(to top, rgba(3, 21, 70, 0.2), rgba(4, 22, 73, 0.2)), url('../css/images/aboutbanner.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: top;
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none;
@@ -2227,6 +2233,25 @@ input, select, textarea {
 		text-decoration: none;
 		width: 100%;
 	}
+	input[type="feedbackText"],
+	input[type="feedbackEmail"],
+	input[type="feedbackName"],
+	.altTextarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		background: #8b6783;
+		border-radius: 5px;
+		border: none;
+		border: solid 2px rgba(255, 255, 255, 0.7);
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: .4em 1em;
+		text-decoration: none;
+		width: 100%;
+	}
 
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
@@ -2328,7 +2353,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				background: rgba(255, 255, 255, 0.025);
 				border-radius: 5px;
-				border: solid 2px rgba(255, 255, 255, 0.125);
+				border: solid 2px rgba(255, 255, 255, 0.5);
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2944,8 +2969,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #4c5c96;
-			box-shadow: none;
+			background-color: #8b6783;
+			
 		}
 
 			input[type="submit"].primary:hover,
@@ -2953,7 +2978,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #53639e;
+				background-color: #ffffff3b;
 			}
 
 			input[type="submit"].primary:active,
@@ -3777,7 +3802,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #cca9be;
 		}
 
 			
