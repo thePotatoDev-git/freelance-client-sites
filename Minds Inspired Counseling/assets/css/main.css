@@ -10,6 +10,8 @@
 2. Banner
 3. Features
 4. Wrapper
+5. Footer
+6. Audio
 
 
 */
@@ -80,6 +82,10 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.hidden {
+	display: none;
 }
 
 /* Basic */
@@ -3659,7 +3665,10 @@ input, select, textarea {
 /* 4. Wrapper */
 
 	#wrapper > header {
-		padding: 11em 0 2.25em 0 ;
+		padding: 11em 0 10.25em 0 ;
+	}
+	#wrapper > .header-alt {
+		padding: 11em 0 0 0;
 	}
 
 		#wrapper > header .inner {
@@ -4105,7 +4114,7 @@ input, select, textarea {
 
 		}
 	
-/* Footer */
+/* 5. Footer */
 
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
@@ -4123,6 +4132,9 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+	}
+	#footer .inner-alt {
+		padding: 0 0 3em 0;
 	}
 
 		#footer .inner > * {
@@ -4264,7 +4276,7 @@ input, select, textarea {
 
 /* 
 ==========================
-Audio
+6. Audio
 ==========================
 */
 audio {
@@ -4275,9 +4287,7 @@ audio {
 	height: 25px;
 }
 
-.hidden {
-	display: none;
-}
+
 
 /*
 	Solid State by HTML5 UP
