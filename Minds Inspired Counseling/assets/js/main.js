@@ -144,9 +144,23 @@
 
 })(jQuery);
 
+//Testimonials expand/collapse button
+
 document.querySelector('#moreButton').addEventListener('click', readMore);
 
-
 function readMore() {
-	document.querySelector('.reviews').classList.toggle('hidden');
+	
+	var btn = document.getElementById("moreButton");
+
+	if (btn.value == "expand") {
+		btn.value = "collapse";
+		btn.innerHTML = "See less";
+		document.querySelector('.reviews').classList.toggle('hidden');
+	}
+	else if (btn.value == "collapse") {
+		btn.value = "expand";
+		btn.innerHTML = "See more";
+		document.querySelector('.reviews').classList.toggle('hidden');
+	}
+
 }
