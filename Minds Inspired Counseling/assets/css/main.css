@@ -336,6 +336,10 @@ input, select, textarea {
 	.review {
 		margin-top: 1.5em;
 	}
+	.reviewBorder {
+		margin: 1.5em 0;
+		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	}
 
 	@media screen and (max-width: 736px) {
 
