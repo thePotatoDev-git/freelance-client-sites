@@ -185,7 +185,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		/* text-align: justify; */
 	}
 
 	br.clear {
@@ -2129,6 +2129,7 @@ input, select, textarea {
 		.icon:before {
 			line-height: inherit;
 			font-size: 1.25em;
+			margin-right: 0.75rem;
 		}
 
 		.icon > .label {
@@ -2478,6 +2479,9 @@ input, select, textarea {
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
 			color: #fff;
 		}
+		#footer h2 {
+			margin-bottom: 3rem;
+		}
 
 		#footer .contact {
 			text-align: center;
@@ -2510,6 +2514,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
+		text-align: center; /* REMOVE AFTER MORE POSTS ADDED */
 	}
 
 		.carousel .forward, .carousel .backward {
@@ -3136,4 +3141,12 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+	}
+
+/* Additional */
+	.row article p {
+		text-align: center;
+	}
+	.icons {
+		margin-top: 3rem;
 	}
