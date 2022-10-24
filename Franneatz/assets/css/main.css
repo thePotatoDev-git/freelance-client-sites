@@ -185,7 +185,7 @@ input, select, textarea {
 	}
 
 	p {
-		/* text-align: justify; */
+		text-align: justify;
 	}
 
 	br.clear {
@@ -3144,9 +3144,9 @@ input, select, textarea {
 	}
 
 /* Additional */
-	.row article p {
+	/* .row article p {
 		text-align: center;
-	}
+	} */
 	.icons {
 		margin-top: 3rem;
 	}
