@@ -185,7 +185,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		/* text-align: justify; */
 	}
 
 	br.clear {
@@ -3149,4 +3149,7 @@ input, select, textarea {
 	} */
 	.icons {
 		margin-top: 3rem;
+	}
+	.subtitle {
+		text-align: center;
 	}
