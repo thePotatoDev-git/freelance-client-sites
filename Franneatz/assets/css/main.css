@@ -3153,3 +3153,6 @@ input, select, textarea {
 	.subtitle {
 		text-align: center;
 	}
+	.travel {
+		justify-content: center;
+	}
